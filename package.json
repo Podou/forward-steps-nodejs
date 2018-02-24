@@ -1,0 +1,31 @@
+{
+  "name": "forward-steps-nodejs",
+  "version": "0.1.0",
+  "description": "Study and improve node.js program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Podou/forward-steps-nodejs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Podou/forward-steps-nodejs/issues"
+  },
+  "homepage": "https://github.com/Podou/forward-steps-nodejs#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "log4js": "^2.3.3",
+    "moment": "^2.18.1",
+    "nodemailer": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "7",
+    "eslint": "3.x"
+  }
+}

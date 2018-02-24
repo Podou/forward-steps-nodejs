@@ -3,7 +3,6 @@ import path from 'path';
 
 import moment from 'moment';
 
-
 const generateFolder = (rootDir, folders) => {
   let folderPath = rootDir;
   // Create folder one by one.

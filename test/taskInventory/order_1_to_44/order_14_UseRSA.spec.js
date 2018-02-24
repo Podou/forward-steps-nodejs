@@ -1,5 +1,5 @@
 
-import UseRSA from  '../../../src/taskInventory/order_1_to_44/order_14_UseRSA';
+import UseRSA from '../../../src/taskInventory/order_1_to_44/order_14_UseRSA';
 
 const rsa = new UseRSA();
 // rsa.genKeysByOpenssl(console.log);

@@ -1,5 +1,5 @@
 
-import GenerateSHA from  '../../../src/taskInventory/order_1_to_44/order_10_GenerateSHA';
+import GenerateSHA from '../../../src/taskInventory/order_1_to_44/order_10_GenerateSHA';
 
 const sha1Text = GenerateSHA.sha1('123456');
 console.log(sha1Text); // 7c4a8d09ca3762af61e59520943dc26494f8941b

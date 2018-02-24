@@ -1,6 +1,5 @@
 import SendMail from '../../../src/taskInventory/order_1_to_44/order_23_SendMail';
 
-
 const sm = new SendMail();
 
 sm.sendText(

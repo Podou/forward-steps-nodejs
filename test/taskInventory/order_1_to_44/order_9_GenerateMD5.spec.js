@@ -1,5 +1,5 @@
 
-import GenerateMD5 from  '../../../src/taskInventory/order_1_to_44/order_9_GenerateMD5';
+import GenerateMD5 from '../../../src/taskInventory/order_1_to_44/order_9_GenerateMD5';
 
 const md5text = GenerateMD5.md5('123456');
 

@@ -1,0 +1,9 @@
+const EMAIL_SERVICE = '';
+const EMAIL_USERNAME = '';
+const EMAIL_AUTHORIZATION_CODE = '';
+
+export default {
+  EMAIL_SERVICE,
+  EMAIL_USERNAME,
+  EMAIL_AUTHORIZATION_CODE
+};

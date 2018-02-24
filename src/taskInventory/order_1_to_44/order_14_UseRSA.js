@@ -6,7 +6,6 @@
  * http://ju.outofmemory.cn/entry/118198
  */
 import cp from 'child_process';
-import assert from 'assert';
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';

@@ -1,8 +1,8 @@
 
 import CryptoAES from '../../../src/taskInventory/order_45/CryptoAES';
 
-const text = '123456'
-const password = 'abcdef'
+const text = '123456';
+const password = 'abcdef';
 
 const cipherAes192 = CryptoAES.cipherAes192(text, password);
 console.log(cipherAes192);

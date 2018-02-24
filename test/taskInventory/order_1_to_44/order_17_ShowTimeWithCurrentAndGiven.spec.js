@@ -1,4 +1,4 @@
-import ShowTimeBefore from  '../../../src/taskInventory/order_1_to_44/order_17_ShowTimeBefore';
+import ShowTimeBefore from '../../../src/taskInventory/order_1_to_44/order_17_ShowTimeWithCurrentAndGiven';
 
 console.log(ShowTimeBefore.show(new Date().getTime(), 1502162936000)); // 1分钟前
 console.log(ShowTimeBefore.show(new Date().getTime(), 1502162836000)); // 3分钟前

@@ -14,7 +14,7 @@ class MultiDownloadImageWithSchedule {
     this.report = {
       error: 0,
       complete: 0,
-      total: this.images.length
+      total: this.images.length,
     };
   }
 

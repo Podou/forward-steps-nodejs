@@ -8,7 +8,6 @@ import path from 'path';
  * For internet crawl spider, donwload image is necessary. So Write a function to deel it.
  */
 class DownloadImageWithUrl {
-
   static download(imageUrl, savePath, saveName, cb) {
     const file = fs.createWriteStream(path.join(savePath, saveName));
     const request = http.get(imageUrl, function(response) {

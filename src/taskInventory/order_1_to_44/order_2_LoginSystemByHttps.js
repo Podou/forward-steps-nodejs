@@ -12,7 +12,6 @@ import https from 'https';
 
   */
 class LoginSystem {
-
   constructor() {
     this.options = {
       hostname: '192.168.105.99',
@@ -23,7 +22,7 @@ class LoginSystem {
       // requestCert: true,
       headers: {
         'Content-Type': 'Application/json'
-      }
+      },
     };
   }
 
@@ -48,8 +47,8 @@ class LoginSystem {
     const payload = {
       credentials: {
         username: 'admin',
-        password: 'a10'
-      }
+        password: 'a10',
+      },
     };
     return this.request(this.options, payload);
   }
@@ -65,8 +64,8 @@ class LoginSystem {
     const payload = {
       credentials: {
         username: 'admin',
-        password: 'a10'
-      }
+        password: 'a10',
+      },
     };
     request.write(JSON.stringify(payload));
     request.end();

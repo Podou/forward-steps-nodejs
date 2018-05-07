@@ -12,7 +12,6 @@ import crypto from 'crypto';
 
 
 class UseRSA {
-
   constructor() {
     this.privateFilename = 'docs/private.pem';
     this.publicFilename = 'docs/public.pem';

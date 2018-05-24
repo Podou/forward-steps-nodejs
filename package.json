@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Podou/forward-steps-nodejs#readme",
   "dependencies": {
     "babel-preset-env": "^1.6.0",
+    "colornames": "^1.1.1",
     "log4js": "^2.3.3",
     "moment": "^2.18.1",
     "mongoose": "^5.0.16",

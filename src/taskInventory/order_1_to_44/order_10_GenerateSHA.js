@@ -5,7 +5,6 @@ import crypto from 'crypto';
  * Using utf-8 encode.
  */
 class GenerateSHA {
-
   static sha1(text) {
     return crypto.createHash('sha1').update(text, 'utf8').digest('hex');
   }

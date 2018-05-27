@@ -23,7 +23,6 @@ const generateFolder = (rootDir, folders) => {
  * For uploading file, should auto create folder to save the uploaded file.
  */
 class GenerateFolder {
-
   static generateByYear(rootDir, timestamp) {
     const lt = moment(timestamp);
     return generateFolder(rootDir, [String(lt.year())]);
@@ -39,7 +38,7 @@ class GenerateFolder {
     return generateFolder(rootDir, [
       String(lt.year()),
       String(lt.month() + 1),
-      String(lt.date())
+      String(lt.date()),
     ]);
   }
 }

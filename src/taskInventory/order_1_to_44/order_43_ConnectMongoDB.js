@@ -24,7 +24,7 @@ class ConnectMongoDB {
       username: String,
       urlname: String,
       raw_text: String,
-      load_time: Number
+      load_time: Number,
     });
 
     const drawcrowdModel = this.db.model('huaban_drawcrowd', huabanSchema, 'huaban_drawcrowd');
